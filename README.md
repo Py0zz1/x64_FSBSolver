@@ -14,7 +14,7 @@ This function is used when writing 6 bytes.
 
 `payload = exp_6(6, 0x4050a0, 0x601020)`
 
-**Meaning: I will write 0x4050a0 (helper) 6 bytes to 0x601020 (exit_got).**
+**Meaning: I will write 0x4050a0 (helper) 6bytes to 0x601020 (exit_got).**
 
 ### exp_4(offset, value, address) & exp_4L(offset, value, address)
 ---
@@ -34,10 +34,12 @@ With exp_4L (), the length of the payload is relatively short.
 ---
 This function is used when writing 2 bytes.
 
-`payload = exp_2(6, 0x4050a0, 0x601020)`
+`payload = exp_2(6, 0x50a0, 0x601020)`
 
-**Meaning: I will write 0x4050a0 (helper) 6 bytes to 0x601020 (exit_got).**
-
-
+**Meaning: I will write 0x4050a0 (helper) 2bytes to 0x601020 (exit_got).**
 
 
+# Contact
+Email: peeper830@gmail.com
+
+[하이퍼 텍스트 링크](https://py0zz1.tistory.com)
