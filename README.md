@@ -25,6 +25,7 @@ This function is used when writing 4 bytes.
 **Meaning: Write 0x4050a0 (helper) to 0x601020 (exit_got) using the format string %hn.**
 
 `payload = exp_4L(6, 0x4050a0, 0x601020)`
+
 **Meaning: Write 0x4050a0 (helper) to 0x601020 (exit_got) using the format string %n.**
 
 The length is relatively short.
