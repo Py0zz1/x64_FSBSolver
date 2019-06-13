@@ -41,5 +41,6 @@ This function is used when writing 2 bytes.
 
 # Contact
 Email: peeper830@gmail.com
-[하이퍼 텍스트 링크](https://py0zz1.tistory.com)
+
+Blog: [py0zz1.tistory.com](https://py0zz1.tistory.com)
 
