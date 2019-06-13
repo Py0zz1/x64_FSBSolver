@@ -81,6 +81,20 @@ def exp_4(offset,value,address):
 	
 		return exp
 
+def exp_4L(offset,value,address):
+	if max_4 < value:
+		logging.warning("Only 4Byte Value!")
+	else:
+		w_offset = offset + 2 # 16byte Static Length
+
+		exp = "%{}c".format(value)
+		exp += "%{}$n".format(w_offset)
+		exp += "p"*(8-len(exp)%8)
+		print len(exp)
+		exp += pack("<Q",address)
+
+		return exp
+
 def exp_2(offset,value,address):
 	if value > 0xffff:
 		logging.warning("Only 2Byte Value!")
@@ -93,8 +107,3 @@ def exp_2(offset,value,address):
 		#print len(exp)
 		exp += pack("<Q",address)
 		return exp
-
-
-
-
-
