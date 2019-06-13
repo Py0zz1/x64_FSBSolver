@@ -40,5 +40,5 @@ This function is used when writing 2 bytes.
 
 
 # Contact
-Email: peeper830@gmail.com
+
 
