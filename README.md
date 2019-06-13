@@ -3,12 +3,12 @@ for CTF Pwner :)
 
 # Usage
 
- `git clone https://github.com/Py0zz1/x64_FSBSolver.git
+ `git clone https://github.com/Py0zz1/x64_FSBSolver.git`
   
-  cd ./x64_FSBSolver
+  `cd ./x64_FSBSolver`
   
-  cp ./x64fsb [Your Workspace]
- `
+  `cp ./x64fsb [Your Workspace]`
+ 
  
  And Just `import x64fsb`
  
