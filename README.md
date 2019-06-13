@@ -1,7 +1,10 @@
 # x64_FSBSolver
 for CTF Pwner :)
 
-# Example
+# Usage
+
+ `git clone `
+
 exit_got = 0x601020
 
 helper = 0x4050a0
