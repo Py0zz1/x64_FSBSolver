@@ -4,13 +4,15 @@ for CTF Pwner :)
 # Usage
 
  `git clone https://github.com/Py0zz1/x64_FSBSolver.git
+  
   cd ./x64_FSBSolver
+  
   cp ./x64fsb [Your Workspace]
  `
  
- And Just... `import x64fsb`
+ And Just `import x64fsb`
  
-
+# Example
 exit_got = 0x601020
 
 helper = 0x4050a0
