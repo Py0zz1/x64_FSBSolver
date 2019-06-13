@@ -28,7 +28,7 @@ This function is used when writing 4 bytes.
 
 **Meaning: Write 0x4050a0 (helper) to 0x601020 (exit_got) using the format string %n.**
 
-The length is relatively short.
+With exp_4L (), the length of the payload is relatively short.
 
 ### exp_2(offset, value, address)
 ---
