@@ -7,7 +7,8 @@ for CTF Pwner :)
   cd ./x64_FSBSolver
   cp ./x64fsb [Your Workspace]
  `
- And Just...`import x64fsb`
+ 
+ And Just... `import x64fsb`
  
 
 exit_got = 0x601020
