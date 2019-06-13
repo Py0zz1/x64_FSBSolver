@@ -1,7 +1,7 @@
 # x64_FSBSolver
 for CTF Pwner :)
 
-## Example
+# Example
 exit_got = 0x601020
 
 helper = 0x4050a0
@@ -12,8 +12,9 @@ taintable_offset = 6
 ---
 This function is used when writing 6 bytes.
 
-payload = exp_6(6, 0x4050a0, 0x601020)
+`payload = exp_6(6, 0x4050a0, 0x601020)`
 
+**Meaning: I will write 0x4050a0 (helper) 6 bytes to 0x601020 (exit_got).**
 
 
 
