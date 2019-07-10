@@ -26,6 +26,7 @@ This function is used when writing 6 bytes.
 
 **Meaning: I will write 0x4050a0(helper) 6bytes to 0x601020(exit_got).**
 
+Payload Length Too long.
 ## exp_4(offset, value, address) & exp_4L(offset, value, address)
 This function is used when writing 4 bytes.
 
@@ -46,7 +47,7 @@ This function is used when writing 2 bytes.
 
 **Meaning: I will write 0x4050a0(helper) 2bytes to 0x601020(exit_got).**
 
-
+Payload Length Too short.
 # Contact
 Email: peeper830@gmail.com
 
